@@ -4,10 +4,10 @@
 
 
 const parola_1 = prompt('Inserisci la prima parola')
-console.log(parola_1)
+console.log('Parola 1: ' + parola_1)
 
 const parola_2 = prompt('Inserisci la seconda parola')
-console.log(parola_2)
+console.log('Parola 2: ' + parola_2)
 
 
 if (parola_1.length > parola_2.length){
@@ -20,7 +20,4 @@ else if(parola_1.length < parola_2.length){
 }
 else if(parola_1.length == parola_2.length){
     console.log('La lunghezza delle parole è uguale')
-}
-else {
-    console.log('ERRORE: Inserisci le tue parole!')
 }
