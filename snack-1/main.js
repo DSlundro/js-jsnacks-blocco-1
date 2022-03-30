@@ -13,8 +13,11 @@ console.log(numberTwo)
 
 if (numberOne > numberTwo){
     console.log('Questo è il numero maggiore ' + numberOne)
-}
-if (numberOne < numberTwo){
+}  else if (numberTwo > numberOne){
     console.log('Questo è il numero maggiore ' + numberTwo)
+}  else if (numberOne == numberTwo){
+    console.log('I numeri sono pari')
 }
+
+
 
