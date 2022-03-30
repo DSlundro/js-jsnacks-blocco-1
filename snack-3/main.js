@@ -30,9 +30,11 @@ console.log('Numero 8: '+ numero_8);
 const numero_9 = Number(prompt('Intesisci il nono numero'));
 console.log('Numero 9: '+ numero_9);
 
-const numero_10 = Number(prompt('Intesisci il cecimo e l\'ultimo numero'));
+const numero_10 = Number(prompt('Intesisci il decimo e l\'ultimo numero'));
 console.log('Numero 10: '+ numero_10);
 
 
 let somma = numero_1 + numero_2 + numero_3 + numero_4 + numero_5 + numero_6 + numero_7 + numero_8 + numero_9 + numero_10;
 console.log('La somma dei numeri: ' + somma);
+
+
