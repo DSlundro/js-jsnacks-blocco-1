@@ -36,5 +36,3 @@ console.log('Numero 10: '+ numero_10);
 
 let somma = numero_1 + numero_2 + numero_3 + numero_4 + numero_5 + numero_6 + numero_7 + numero_8 + numero_9 + numero_10;
 console.log('La somma dei numeri: ' + somma);
-
-
