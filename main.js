@@ -9,14 +9,14 @@ console.log(parola_1)
 const parola_2 = prompt('Inserisci la seconda parola')
 console.log(parola_2)
 
-if (parola_1.length < parola_2.length){
+if (parola_1 < parola_2){
     console.log('Parola più corta: ' + parola_1)
     console.log('Parola più lunga: ' + parola_2)
 } 
-else if(parola_1.length > parola_2.length){
+else if(parola_1 > parola_2){
     console.log('Parola più corta: ' + parola_2)
     console.log('Parola più lunga: ' + parola_2)
 }
-else if(parola_1.length = parola_2.length){
+else if(parola_1 == parola_2){
     console.log('La lunghezza delle parole è uguale')
 }
