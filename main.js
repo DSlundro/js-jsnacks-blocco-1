@@ -20,3 +20,6 @@ else if(parola_1 > parola_2){
 else if(parola_1 == parola_2){
     console.log('La lunghezza delle parole è uguale')
 }
+else {
+    console.log('ERRORE: Inserisci le tue parole!')
+}
